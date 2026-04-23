@@ -10,12 +10,13 @@ body{
 	margin: 0 auto;
 	background-color: #F9F8F4;
 	font-family: "Shippori Mincho", serif;
-	font-weight: 400;
+	font-weight: normal;
 	font-style: normal;
 	min-width: 1000px;
+	font-size: 16px;
 }
 html{
-	font-size: 62.5%;
+	font-size: 16px;
 	font-family: "Shippori Antique" "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
 	color: #24292E;
 }
