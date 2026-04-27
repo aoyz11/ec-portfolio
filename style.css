@@ -122,24 +122,6 @@ img{
   opacity: 0;
   animation: fadeSlider 15s infinite; /* 合計時間: 5秒×3枚=15秒 */
 }
-
-/* 各スライドの画像とアニメーションの遅延設定 */
-/*
-.slide-item:nth-child(1) {
-  background-image: url("images/img-sc-hero.jpg");
-  animation-delay: 0s;
-}
-.slide-item:nth-child(2) {
-  background-image: url("images/img-hero.jpg");
-  animation-delay: 5s;*/ /* 前の画像が切り替わるタイミング */
-/*
-}
-.slide-item:nth-child(3) {
-  background-image: url("images/img-hero.jpg");
-  animation-delay: 10s;
-}
-*/
-
 /* フェードアニメーション */
 @keyframes fadeSlider {
   0% { opacity: 0; }
