@@ -548,10 +548,9 @@ ul.slick-dots{
 	padding-bottom: 10px;
 }
 .header-top {
-   	flex-direction: column;
    	height: auto;
-	padding-left: 140px;
-	padding-right: 140px;
+	padding-left: 50x;
+	padding-right: 50px;
 }
 .search_container {
     width: 100%;
@@ -601,7 +600,7 @@ select {
 	left: 131px;	
 }
 .goods {
-    margin: 20px;
+    margin: 20px auto; 
     padding: 30px 20px;
 }
 .goods-img {
@@ -609,9 +608,9 @@ select {
     grid-template-columns: repeat(2, 1fr); 
     gap: 20px 10px; 
     justify-content: center;
-    align-items: start; 
-	padding: 30px;
-}	
+    align-items: start;
+	padding: 0 20px;
+}
 .box img {
     width: 100%;
 }
