@@ -77,16 +77,15 @@ img {
 	z-index: 10000;
 }
 .img-icon{
+	position: fixed;
 	display: flex;
-	flex-direction: column;
-	gap:30px;
+	top: 45px;
+	right: 0;
+	align-items: center;
+	gap:10px;
 	padding: 30px 20px 30px 30px;
 	border-radius: 20px 0 0 20px;
-	background-color: rgba(255, 255, 255, 0.45);
-  	backdrop-filter: blur(8px);
-	-webkit-backdrop-filter: blur(8px);
-	border: 1px solid rgba(255, 255, 255, 0.2);
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	opacity: .9;
 }
 .img-icon1,.img-icon2{ width: 42px;}
 
